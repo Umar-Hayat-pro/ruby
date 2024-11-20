@@ -7,7 +7,7 @@ else
   puts "b is greater than a"
 end
 
-
+#unless block is opposite of if if unless block condition is false it will execute and not false the else block will work
 
 unless a > b
  puts "b is greater than a" 
