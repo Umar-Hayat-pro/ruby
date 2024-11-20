@@ -14,3 +14,7 @@ unless a > b
 else
   puts "a is  greater than b"
 end
+
+
+age = 19
+puts "Your are 20 years old" if age >= 20
