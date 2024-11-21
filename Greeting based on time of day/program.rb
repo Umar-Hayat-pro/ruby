@@ -1,13 +1,12 @@
 puts "Enter the Current Time in 24hrs Format"
 time = gets.chomp
 
-# Input Validation
+
 if time =~ /\D/ || time.to_i < 0 || time.to_i > 23
   puts "Invalid Input"
 else
-  time = time.to_i # Convert to integer for further comparisons
+  time = time.to_i 
 
-  # Greeting Logic
   if time >= 5 && time <= 11
     puts "Good Morning"
   elsif time >= 12 && time <= 17

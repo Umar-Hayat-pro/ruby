@@ -8,7 +8,7 @@ puts "Input another number:"
 input_ii = gets.chomp.to_i
 
 answer = case operator
-when '+'
+when '+
     puts input_i + input_ii
 when '-'
     puts input_i - input_ii
