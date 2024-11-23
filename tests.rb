@@ -7,3 +7,9 @@ end
 5.times do |n|
   puts "hello world #{n}"
 end
+
+
+arr = [1,2,3,4,5,6]
+
+puts arr[0] * arr[5]
+
