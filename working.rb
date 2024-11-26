@@ -28,7 +28,7 @@
 # puts cube(5)
 
 ismale = false
-istall = false
+istall = true
  
 if ismale and istall 
   puts "You are a tall male"
